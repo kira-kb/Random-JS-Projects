@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+  }
+  
+  body {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #333; */
+    background-image: linear-gradient(
+      to top left,
+      rgb(110, 112, 221),
+      rgb(59, 205, 231),
+      rgb(110, 112, 221)
+    );
+    /* background-image: linear-gradient(
+      to top left,
+      rgb(162, 110, 221),
+      rgb(59, 90, 231),
+      rgb(197, 59, 231)
+    ); */
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50%;
+    height: 20%;
+    gap: 10px;
+  
+    /* background-color: rgba(51, 51, 51, 0.5); */
+  }
+  
+  .insert {
+    background-color: #eee;
+    /* height: 1000px; */
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 5px; */
+    /* border-bottom: 2px #333 solid; */
+  }
+  
+  .lists {
+    /* background-color: #eee; */
+    /* height: 10%; */
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* gap: 10px; */
+    /* border-radius: 0 0 5px 5px; */
+  }
+  
+  .list {
+    padding: 5px;
+    display: flex;
+    /* flex-grow: 1; */
+    justify-content: space-between;
+    border: 1px solid #fff;
+    /* border-radius: 5px; */
+    background-color: #eee;
+    margin-top: 1px;
+    /* border-left: 5px solid rgb(24, 24, 24); */
+  }
+  
+  font {
+    width: 95%;
+  }
+  
+  .add-btn,
+  .del-btn {
+    color: #eee;
+    background-color: #aaf;
+    /* border-radius: 5px; */
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 100ms;
+  }
+  
+  .add-btn {
+    /* border-radius: 0 5px 5px 0; */
+    margin-left: 1px;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    background-color: #99f;
+  }
+  
+  input {
+    background-color: #fff;
+    color: #333;
+    /* border-radius: 5px 0 0 5px; */
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    cursor: text;
+    flex-grow: 1;
+  }
+  
